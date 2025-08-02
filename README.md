@@ -31,15 +31,13 @@ npm start --prefix client
 
 ## Running the server
 
-```bash
+    Bash:
 flask run --port=5555
-```
 
 ## Testing
 
-```bash
+    Bash:
 pytest
-```
 
 ## API Endpoints
 
@@ -50,5 +48,3 @@ Returns the list of sample articles:
 
 - **GET** `/clear`  
   Resets session['page_views'] to 0
-
----
